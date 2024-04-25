@@ -8,3 +8,7 @@ matrix1: matrix/matrix1.cpp
 matrix2: matrix/matrix2.cpp
 	g++ matrix/matrix2.cpp -o matrix2.out
 	./matrix2.out
+
+matrix3: matrix/matrix3.cpp
+	g++ matrix/matrix3.cpp -o matrix3.out
+	./matrix3.out

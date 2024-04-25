@@ -35,7 +35,7 @@ int main() {
     matrixC[1][1] = matrixA[1][0] * matrixB[0][1] + matrixA[1][1] * matrixB[1][1];
 
     for (int i = 0; i < ORDER; i++) {
-        cout << "[";
+        cout << '[';
 
         for (int j = 0; j < ORDER; j++) {
             j + 1 == ORDER
@@ -43,7 +43,7 @@ int main() {
                 : cout << matrixC[i][j] << ' ';
         }
 
-        cout << "]\n";
+        cout << ']';
     }
 
     int determinant = matrixC[0][0] * matrixC[1][1] - matrixC[0][1] * matrixC[1][0];

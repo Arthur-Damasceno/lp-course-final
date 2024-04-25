@@ -42,7 +42,7 @@ int main() {
     matrixC[2][2] = matrixA[2][0] * matrixB[0][2] + matrixA[2][1] * matrixB[1][2] + matrixA[2][2] * matrixB[2][2];
 
     for (int i = 0; i < ORDER; i++) {
-        cout << "[";
+        cout << '[';
 
         for (int j = 0; j < ORDER; j++) {
             j + 1 == ORDER
