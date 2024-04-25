@@ -53,6 +53,6 @@ bool List::empty() {
 
 void List::print() {
     for (int i = 0; i < elements.size(); i++) {
-        cout << elements[i] << '\n';
+        cout << i + 1 << ". " << elements[i] << '\n';
     }
 }
