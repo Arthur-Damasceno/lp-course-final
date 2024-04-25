@@ -8,6 +8,13 @@ queue: dataStructures/queue.cpp queuelib.o
 queuelib.o: dataStructures/lib/queue.cpp
 	g++ -c dataStructures/lib/queue.cpp -o queuelib.o
 
+stack: dataStructures/stack.cpp stacklib.o
+	g++ dataStructures/stack.cpp stacklib.o -o stack.out
+	./stack.out
+
+stacklib.o: dataStructures/lib/stack.cpp
+	g++ -c dataStructures/lib/stack.cpp -o stacklib.o
+
 matrix1: matrix/matrix1.cpp
 	g++ matrix/matrix1.cpp -o matrix1.out
 	./matrix1.out
