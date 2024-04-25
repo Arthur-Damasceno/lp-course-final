@@ -1,6 +1,6 @@
 # Linguagem de Programação - Engenharia Mecatrônica - Trabalho Final
 
->>> Este repositório contém o trabalho final da disciplina de Linguagem de Programação do curso de Engenharia Mecatrônica no [IFCE](https://ifce.edu.br/)
+> Este repositório contém o trabalho final da disciplina de Linguagem de Programação do curso de Engenharia Mecatrônica no [IFCE](https://ifce.edu.br/)
 
 ### Observações:
 - Os comandos de execução do projeto orientados a seguir funcionam apenas em sitemas operacionais Linux
