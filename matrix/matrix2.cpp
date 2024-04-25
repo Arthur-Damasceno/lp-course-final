@@ -62,5 +62,7 @@ int main() {
     
     cout << "O determinante da matriz é " << determinant << '\n';
 
+    file.close();
+
     return 0;
 }
