@@ -1,6 +1,13 @@
 clean:
 	rm *.out *.o
 
+queue: dataStructures/queue.cpp queuelib.o
+	g++ dataStructures/queue.cpp queuelib.o -o queue.out
+	./queue.out
+
+queuelib.o: dataStructures/lib/queue.cpp
+	g++ -c dataStructures/lib/queue.cpp -o queuelib.o
+
 matrix1: matrix/matrix1.cpp
 	g++ matrix/matrix1.cpp -o matrix1.out
 	./matrix1.out
