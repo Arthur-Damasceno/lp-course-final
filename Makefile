@@ -15,6 +15,13 @@ stack: dataStructures/stack.cpp stacklib.o
 stacklib.o: dataStructures/lib/stack.cpp
 	g++ -c dataStructures/lib/stack.cpp -o stacklib.o
 
+list: dataStructures/list.cpp listlib.o
+	g++ dataStructures/list.cpp listlib.o -o list.out
+	./list.out
+
+listlib.o: dataStructures/lib/list.cpp
+	g++ -c dataStructures/lib/list.cpp -o listlib.o
+
 matrix1: matrix/matrix1.cpp
 	g++ matrix/matrix1.cpp -o matrix1.out
 	./matrix1.out
